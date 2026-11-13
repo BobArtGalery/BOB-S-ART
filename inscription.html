@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inscription – Bob’Art, galerie d’art éphémère · Genève</title>
+<meta name="description" content="Inscrivez-vous gratuitement pour recevoir les informations de la galerie Bob’Art à Genève : programme, nouveautés et invitations.">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Bob’Art"><meta property="og:title" content="Inscription – Bob’Art, galerie d’art éphémère · Genève"><meta property="og:description" content="Inscrivez-vous gratuitement pour recevoir les informations de la galerie Bob’Art à Genève."><meta name="theme-color" content="#e6dbc5"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header><div class="bar"><a class="logo" href="index.html" aria-label="Bob’Art – accueil"><img src="images/logo.svg" alt="Bob’Art, galerie d’art · Genève" width="698" height="639"></a>
+<button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav><ul>
+<li><a href="index.html">Accueil</a></li><li><a href="index.html#presentation">Présentation</a></li>
+<li><a href="oeuvres.html">Œuvres</a></li><li><a href="artistes.html">Artistes</a></li><li><a href="contact.html">Contact</a></li><li><a href="inscription.html" class="cta" aria-current="page">Inscription</a></li>
+</ul></nav></div></header>
+<main id="main">
+<div class="wrap"><h1 class="title">Inscription</h1>
+<p class="lead rv">Recevez gratuitement les informations de la galerie : programme du mois de décembre, nouvelles œuvres et invitations. Les trois champs sont obligatoires.</p>
+<form class="signup rv" id="signup" novalidate>
+<div class="row">
+<div class="field"><label for="prenom">Prénom</label><input type="text" id="prenom" name="prenom" autocomplete="given-name" required aria-describedby="e-prenom"><span class="err" id="e-prenom"></span></div>
+<div class="field"><label for="nom">Nom</label><input type="text" id="nom" name="nom" autocomplete="family-name" required aria-describedby="e-nom"><span class="err" id="e-nom"></span></div>
+</div>
+<div class="field"><label for="mail">Adresse e-mail</label><input type="email" id="mail" name="mail" autocomplete="email" inputmode="email" required aria-describedby="e-mail"><span class="err" id="e-mail"></span></div>
+<button type="submit" class="btn">Envoyer</button>
+<p class="note">Vos données ne sont pas enregistrées : ce formulaire est une démonstration.</p>
+</form>
+<p class="ok" id="ok" role="status" hidden></p>
+</div>
+</main><footer>© Bob’Art – Galerie d’art éphémère · Genève · Décembre 2026</footer><script src="js/script.js"></script></body></html>
