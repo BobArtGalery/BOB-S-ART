@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://VOTRE-NOM.github.io/bobart/sitemap.xml
+Sitemap: https://bobartgalery.github.io/BOB-S-ART/sitemap.xml
